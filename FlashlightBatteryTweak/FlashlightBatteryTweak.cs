@@ -9,7 +9,6 @@ namespace FlashlightBatteryTweak;
 
 [BepInPlugin(MyPluginInfo.PLUGIN_GUID, MyPluginInfo.PLUGIN_NAME, MyPluginInfo.PLUGIN_VERSION)]
 [BepInDependency("BMX.LobbyCompatibility", BepInDependency.DependencyFlags.HardDependency)]
-[LobbyCompatibility(CompatibilityLevel.Everyone, VersionStrictness.Minor)]
 [BepInDependency("com.sigurd.csync", BepInDependency.DependencyFlags.HardDependency)]
 public class FlashlightBatteryTweak : BaseUnityPlugin
 {
